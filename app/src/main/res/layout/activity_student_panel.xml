@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/student_bg"
+    android:orientation="vertical"
+    tools:context=".student_panel.StudentPanelActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00008577"
+            app:navigationIcon="@drawable/ic_back"
+            app:title="Student Panel"
+            app:titleTextColor="#0277BD" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/toolbar"
+            android:background="#0277BD" />
+
+        <Button
+            android:id="@+id/liveClass"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_below="@id/divider"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:drawableStart="@drawable/live"
+            android:text="Learn a Topic"
+            android:textAllCaps="false"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/classRecord"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_below="@id/liveClass"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:drawableStart="@drawable/recorded_video"
+            android:text="Previous Classes"
+            android:textAllCaps="false"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+</ScrollView>
