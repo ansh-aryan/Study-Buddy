@@ -17,8 +17,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#00008577"
-            android:minHeight="?attr/actionBarSize"
-            android:theme="?attr/actionBarTheme"
             app:navigationIcon="@drawable/ic_back"
             app:title="Admin Panel"
             app:titleTextColor="@color/comb_1" />
