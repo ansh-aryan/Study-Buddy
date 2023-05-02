@@ -139,9 +139,9 @@
             android:textAlignment="textStart"
             android:textColor="@color/black"
             app:counterEnabled="true"
-            app:counterMaxLength="11"
+            app:counterMaxLength="10"
             app:endIconMode="clear_text"
-            app:prefixText="+88"
+            app:prefixText="+91"
             app:startIconDrawable="@drawable/ic_phone">
 
             <com.google.android.material.textfield.TextInputEditText
